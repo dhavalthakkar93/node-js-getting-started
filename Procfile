@@ -1,1 +1,1 @@
-web: node index.js
+web: bin/start-pgbouncer node index.js
