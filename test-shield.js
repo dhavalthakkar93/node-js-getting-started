@@ -17,6 +17,7 @@ pool.connect(function (err, client, done) {
   } else {
     client.query("INSERT INTO testuser VALUES('user1')", function (err, result) {
       console.log("inserted");
+        process.exit(0);
     });
   }
 });
